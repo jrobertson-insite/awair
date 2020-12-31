@@ -16,17 +16,18 @@ AWAIR Local Sensor for Home Assistant 입니다.<br>
 | v1.0.0  | 2020.06.30  | First version  |
 | v1.0.1  | 2020.07.02  | unit_of_measurement 추가 |
 | v1.1.0  | 2020.07.29  | air-data 속성 추가 |
+| v1.1.0.1 | 2020.12.31 | Changed domain to avoid conflict |
 
 <br>
 
 ## Installation
 ### Manual
-- HA 설치 경로 아래 custom_components 에 파일을 넣어줍니다.<br>
+- Put the file in custom_components under the HA installation path.<br>
   `<config directory>/custom_components/awair/__init__.py`<br>
   `<config directory>/custom_components/awair/manifest.json`<br>
   `<config directory>/custom_components/awair/sensor.py`<br>
-- configuration.yaml 파일에 설정을 추가합니다.<br>
-- Home-Assistant 를 재시작합니다<br>
+- Add the settings to the configuration.yaml file.<br>
+- Restart Home-Assistant<br>
 
 <br>
 

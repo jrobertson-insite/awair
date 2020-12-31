@@ -1,10 +1,6 @@
 # AWAIR Local Sensor
 
-![HAKC)][hakc-shield]
-![HACS][hacs-shield]
-![Version v1.4][version-shield]
-
-AWAIR Local Sensor for Home Assistant 입니다.<br>
+AWAIR Local Sensor for Home Assistant.<br>
 
 ![screenshot_2](https://github.com/miumida/awair2mqtt/blob/master/image/awair2mqtt_sensor.png?raw=true)<br>
 
@@ -15,7 +11,7 @@ AWAIR Local Sensor for Home Assistant 입니다.<br>
 | :-----: | :---------: | ----------------------- |
 | v1.0.0  | 2020.06.30  | First version  |
 | v1.0.1  | 2020.07.02  | unit_of_measurement 추가 |
-| v1.1.0  | 2020.07.29  | air-data 속성 추가 |
+| v1.1.0  | 2020.07.29  | Add air-data attribute |
 | v1.1.0.1 | 2020.12.31 | Changed domain to avoid conflict |
 
 <br>
@@ -33,7 +29,7 @@ AWAIR Local Sensor for Home Assistant 입니다.<br>
 
 ## Usage
 ### configuration
-- HA 설정에 awair sensor를 추가합니다.<br>
+- Add awair sensor to your HA setup.<br>
 ```yaml
 sensor:
   - platform: awair
@@ -44,29 +40,29 @@ sensor:
         ip: '[Your AWAIR Device IP]'
 ```
 <br><br>
-### 기본 설정값
+### Default settings
 
-|옵션|내용|
+|Option|Contents|
 |--|--|
-|name| (옵션) Name / default(awair)|
-|devices| (필수) AWAIR Devices |
-|scan_interval| (옵션) Sensor Update Term / default(10s) |
+|name| (Option) Name / default(awair)|
+|devices| (Required) AWAIR Devices |
+|scan_interval| (Option) Sensor Update Interval / default(10s) |
 
 <br>
 
-### devices 설정값
+### Device settings
 
-|옵션|값|
+|Option|Contents|
 |--|--|
-|id| (필수) AWAIR ID, 띄워쓰기(X), 한글(X) |
-|name| (필수) AWAIR Nickname |
-|ip| (필수) AWAIR Local IP |
+|id| (Required) AWAIR ID |
+|name| (Required) AWAIR Nickname |
+|ip| (Required) AWAIR Local IP |
 
 <br>
 
-### awair_type 설정값
+### awair_type setting values
 
-|코드|값|Score|Temperature|Humidity|VOC|CO2|PM2.5|Light|Noise|
+|Code|Value|Score|Temperature|Humidity|VOC|CO2|PM2.5|Light|Noise|
 |--|--|--|--|--|--|--|--|--|--|
 |S| 2nd Edition |O|O|O|O|O|O|X|X|
 |M| Mint |O|O|O|O|X|O|O|O|
@@ -74,11 +70,3 @@ sensor:
 |E| Element |O|O|O|O|O|O|X|X|
 
 <br>
-
-## 참고사이트
-[1] 네이버 HomeAssistant 카페 | 랜이님의 어웨어 로컬센서 설정기 (<https://cafe.naver.com/koreassistant/703>)<br>
-[2] 네이버 HomeAssistant 카페 | 크리틱님의 Awair를 Local로 사용하기 + α (<https://cafe.naver.com/koreassistant/729>)<br>
-
-[version-shield]: https://img.shields.io/badge/version-1.1.0-orange.svg
-[hakc-shield]: https://img.shields.io/badge/HAKC-Enjoy-blue.svg
-[hacs-shield]: https://img.shields.io/badge/HACS-Custom-red.svg

@@ -7,10 +7,10 @@ AWAIR Local Sensor for Home Assistant.<br>
 <br>
 
 ## Version history
-| Version | Date        | 내용              |
+| Version | Date        | Contents              |
 | :-----: | :---------: | ----------------------- |
 | v1.0.0  | 2020.06.30  | First version  |
-| v1.0.1  | 2020.07.02  | unit_of_measurement 추가 |
+| v1.0.1  | 2020.07.02  | Add unit_of_measurement |
 | v1.1.0  | 2020.07.29  | Add air-data attribute |
 | v1.1.0.1 | 2020.12.31 | Changed domain to avoid conflict |
 

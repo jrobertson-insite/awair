@@ -33,7 +33,7 @@ _AWAIR_PROPERTIES = {
   'score': ['Score',       None,    'mdi:periodic-table'],
   'temp':  ['Temperature', '°C',    'mdi:thermometer'],
   'humid': ['Humidity',    '%',     'mdi:water-percent'],
-  'co2':   ['CO₂',         'ppm',   'mdi:periodic-table-co2'],
+  'co2':   ['CO₂',         'ppm',   'mdi:molecule-co2'],
   'voc':   ['VOC',         'ppb',   'mdi:chemical-weapon'],
   'pm25':  ['PM2.5',       '㎍/㎥', 'mdi:blur'],
   'lux':   ['Light',       'lux',   'mdi:weather-sunny'],

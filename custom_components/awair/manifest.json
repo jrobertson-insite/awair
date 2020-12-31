@@ -1,6 +1,6 @@
 {
-    "domain": "awair",
-    "name": "awair",
+    "domain": "awair-local",
+    "name": "awair-local",
     "documentation": "https://github.com/miumida/awair",
     "requirements": [],
     "dependencies": [],

@@ -16,6 +16,7 @@ AWAIR Local Sensor for Home Assistant 입니다.<br>
 | v1.0.0  | 2020.06.30  | First version  |
 | v1.0.1  | 2020.07.02  | unit_of_measurement 추가 |
 | v1.1.0  | 2020.07.29  | air-data 속성 추가 |
+| v1.1.1  | 2021.03.09  | manifest.json add version attribute.json |
 
 <br>
 
@@ -78,6 +79,6 @@ sensor:
 [1] 네이버 HomeAssistant 카페 | 랜이님의 어웨어 로컬센서 설정기 (<https://cafe.naver.com/koreassistant/703>)<br>
 [2] 네이버 HomeAssistant 카페 | 크리틱님의 Awair를 Local로 사용하기 + α (<https://cafe.naver.com/koreassistant/729>)<br>
 
-[version-shield]: https://img.shields.io/badge/version-1.1.0-orange.svg
+[version-shield]: https://img.shields.io/badge/version-1.1.1-orange.svg
 [hakc-shield]: https://img.shields.io/badge/HAKC-Enjoy-blue.svg
 [hacs-shield]: https://img.shields.io/badge/HACS-Custom-red.svg
